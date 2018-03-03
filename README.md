@@ -1,5 +1,8 @@
 # googletranslator
-use google trnaslator API translate document and write back into file with same format
+mix = True, the new doc present both original and target language line by line.
+    = Flase, only present target language.
+
+use google translator API to translate word format document and write back into file with same format
 ```
 from docx import Document
 from googletrans import Translator
